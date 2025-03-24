@@ -1,5 +1,5 @@
 import "../styles/global.css";
-import { DefaultSeo } from "next-seo";
+// import { DefaultSeo } from "next-seo";
 
 const DEFAULT_SEO = {
   title: "Sneaky Mustard",
@@ -24,7 +24,7 @@ const DEFAULT_SEO = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <DefaultSeo {...DEFAULT_SEO} />
+      {/*<DefaultSeo {...DEFAULT_SEO} />*/}
       <body className="bg-black text-white">
         <main>{children}</main>
       </body>
